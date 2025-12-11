@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horner Calculator</title>
+    <link rel="stylesheet" href="CSS/main.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="group">
+            <h5>Mohamed Ahmed Galal          420230242</h5>
+            <h5>Shahd Mohamed AbdElAzim      420230053</h5>
+        </div>
+        <h2>Horner Method Calculator</h2>
+
+        <label>Enter coefficients (comma separated):</label>
+        <input type="text" id="coeffs" placeholder="Example: 2, -6, 2, -1">
+        <br>
+        <br>
+        <label>Enter X value:</label>
+        <input type="text" id="xValue" placeholder="Example: 3">
+
+        <button type="button" onclick="calculateHorner()">Calculate</button>
+
+        <h3>Output:</h3>
+        <div id="resultBox"></div>
+    </div>
+
+    <script src="JS/main.js"></script>
+</body>
+</html>
